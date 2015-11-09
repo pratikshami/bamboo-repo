@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="emsAdd"
+    errors="0" failures="0" hostname="" id="" package="emsAdd" skipped="0"
+    tests="2" time="24.33" timestamp="Wed, 09 Sep 2015 10:05:25 GMT">
+  
+    <testcase name="Test for EMS-APPLICATION" time="23.70" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="List of Employees" time="0.6280" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
