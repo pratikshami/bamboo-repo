@@ -104,4 +104,4 @@ gulp.task('nightwatch', function() {
 
 
 
-gulp.task('default',['test','mocha','lint'],function(){});
+gulp.task('build',['test','mocha','lint'],function(){});
