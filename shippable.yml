@@ -1,0 +1,17 @@
+language: node_js
+
+node_js:
+  - 4.2.2
+
+before_install:
+# Activate the required node.js version
+  - source ~/.nvm/nvm.sh && nvm install $SHIPPABLE_NODE_VERSION
+  - node --version
+  - npm install -g grunt-cli
+
+#install the required dependencies
+install:
+  - npm install
+
+script:
+  - gulp run
