@@ -1,4 +1,4 @@
-FROM www.cybage-docker-registry.com:9080/jenkins_node_slave:1.2
+FROM pratiksha12/jenkins
 
 Run npm install gulp-cli -g
 Run npm install gulp
